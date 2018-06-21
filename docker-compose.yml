@@ -1,0 +1,7 @@
+version: '3'
+services:
+  circle-get-artifact:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    
